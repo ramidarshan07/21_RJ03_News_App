@@ -1,12 +1,34 @@
-# React + Vite
+# 📰 React News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive news application built with **React** and **Vite**, using the [NewsAPI](https://newsapi.org) to fetch top headlines by category. Includes Bootstrap for styling and tooltip features, with a loading spinner while switching categories.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![news-2](https://github.com/user-attachments/assets/cf1e95d6-2a28-4b07-a04a-3145ef691972)
+![news-3](https://github.com/user-attachments/assets/28dc1b31-dc44-449c-8f97-c562b76c729c)
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse top headlines by category (business, sports, health, etc.)
+- Tooltip integration on GitHub icon
+- Responsive design with Bootstrap
+- Loading spinner shown while fetching data
+
+---
+
+## 🔧 Tech Stack
+
+- **React + Vite**
+- **Bootstrap 5**
+- **NewsAPI.org**
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/news-app.git
+   cd news-app
+   npm install
+   npm run dev
